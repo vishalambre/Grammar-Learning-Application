@@ -1,0 +1,40 @@
+h1{
+	font-family: Dancing Script;
+	font-size: 80px;
+}
+
+body{
+
+	background:url("cover.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+h2{
+	font-family: Indie Flower;
+	color: purple;
+	font-weight: bold;
+}
+
+body{
+
+	text-align: center;
+}
+
+input{
+
+font-family:Indie Flower;
+font-size: 20px
+
+}
+
+input[type="button"]{
+	font-family: Dancing Script;
+	font-weight: bold;
+	font-size: 20px
+}
+div {
+    opacity: 0.8;
+    font-weight: bold;
+}

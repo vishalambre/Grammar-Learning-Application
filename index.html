@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grammar Learning Application</title>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="compromise.min.js"></script>
+	<script type="text/javascript" src="rita-full.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+<h1>Welcome to Grammar Learning Application</h1>
+	
+<div>
+	
+<input type="text" id="inputnegate" placeholder="Enter an affirmative Sentence !!" size="50"><br><br>
+<input type="Button" name="negate" value="Negate Sentence" onclick="negate()">
+<h2 id="negate"></h2>
+
+<input type="text" id="inputtopositive" placeholder="Enter a negative Sentence !!" size="50"><br><br>
+<input type="Button" name="positive" value="Make it Positive" onclick="positive()">
+<h2 id="positive"></h2>
+
+<input type="text" id="inputtofuture" placeholder="Enter a Sentence in present tense !!" size="50"><br><br>
+<input type="Button" name="future" value="Forsee the future" onclick="toFuture()">
+<h2 id="future"></h2>
+
+<input type="text" id="inputtopast" placeholder="Enter a Sentence in past tense !!" size="50"><br><br>
+<input type="Button" name="future" value="Delve in the past" onclick="toPast()">
+<h2 id="past"></h2>
+
+<input type="text" id="inputtopluralrize" placeholder="Enter a word/Sentence to Pluralize !!" size="50"><br><br>
+<input type="Button" name="plural" value="Pluralize" onclick="toPlural()">
+<h2 id="plural"></h2>
+
+<input type="text" id="inputtosingular" placeholder="Enter a word/Sentence to Singularize !!" size="50"><br><br>
+<input type="Button" name="singular" value="Singularize" onclick="toSingular()">
+<h2 id="singular"></h2>
+
+<input type="text" id="inputtopos" placeholder="Enter a Sentence !!" size="50"><br><br>
+<input type="Button" name="pos" value="Grab Adverbs" onclick="toadverb()">
+<input type="Button" name="pos" value="Grab Adjectives" onclick="toadjective()">
+<input type="Button" name="pos" value="Grab Verbs" onclick="toverb()">
+<input type="Button" name="pos" value="Grab Nouns" onclick="tonoun()">
+<h2 id="adverb"></h2>
+
+<input type="text" id="inputtorhymes" placeholder="Enter a word to find rhymes !!" size="50"><br><br>
+<input type="Button" name="rhyme" value="Find Rhyme" onclick="torhyme()">
+<h2 id="rhyme"></h2>
+
+<input type="text" id="inputtosyllables" placeholder="Enter a word !!" size="50"><br><br>
+<input type="Button" name="Syllables" value="Get Syllables" onclick="tosyllables()">
+<h2 id="syllables"></h2>
+
+<input type="text" id="inputtocontract" placeholder="Enter a sentence containing Expansions or contractions !!" size="50"><br><br>
+<input type="Button" name="contract" value="Get Contractions" onclick="tocontractions()">
+<input type="Button" name="expand" value="Get Expansions" onclick="toexpansions()">
+<h2 id="contractions"></h2>
+
+<input type="text" id="inputtostem" placeholder="Enter a word !!" size="50"><br><br>
+<input type="Button" name="stem" value="Get Stem" onclick="tostem()">
+<h2 id="stem"></h2>
+
+<!-- <input type="text" id="inputtopos" placeholder="Sentence Please !!" size="50"><br><br>
+<input type="Button" name="pos" value="Get POS" onclick="topos()">
+<h2 id="pos"></h2> -->
+
+</div>
+
+</body>
+</html>
